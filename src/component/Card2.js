@@ -38,6 +38,7 @@ function Card2() {
             </Typography>
             <Container >
             <Grid item xs={12}>
+                {/* New Chages */}
             <Grid  container justifyContent="center" display='flex'  spacing={2}>
                 {
                     data.map((ele) =>
