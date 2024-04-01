@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
  
-        <Grid item xs={12} sx={{ backgroundColor: '#F9FBFC',padding:'0px 10vw', color: 'gray' }}>
+        <Grid item xs={12} sx={{ background: 'linear-gradient(180deg, #F9FBFC 0%, #E3E6E8 100%)',padding:'50px 10vw', color: 'gray' }}>
           <Grid container justifyContent="center" display='flex' spacing={2}>
 
             <Grid item xs={8} md={4} lg={3} >

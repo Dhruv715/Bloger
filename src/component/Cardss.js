@@ -31,9 +31,10 @@ function Cardss() {
                     data.map((ele) =>
                         <Grid item xs={8} md={4} lg={3} >
                             <Box sx={{boxShadow:'none'}}>
-                                <Card sx={{ maxWidth: 345 ,boxShadow:'none',backgroundColor:'#F9FBFC', border:'1px solid #F9FBFC',borderRadius:'20px'}}>
+                                <Card sx={{ maxWidth: 345 ,boxShadow:'none',color: 'white',
+                    background: 'linear-gradient(to bottom, gray 70%, black 100%)', border:'1px solid #F9FBFC',borderRadius:'10px'}}>
                                     <CardMedia
-                                        sx={{ height: 140 ,borderRadius:'20px'}}
+                                        sx={{ height: 140 ,borderRadius:'10px'}}
                                         image={ele.url}
                                         title={ele.title}
                                     />
